@@ -47,8 +47,7 @@ namespace HashTable
                 {
                     return true;
                 }
-            }
-            return false;
+            }return false;
         }
 
         public void Add(K key, V value)
@@ -81,7 +80,6 @@ namespace HashTable
             {
                 linkedList.Remove(foundItem);
             }
-
         }
         private LinkedList<KeyValue<K, V>> GetLinkedList(int position)
         {
@@ -113,7 +111,6 @@ namespace HashTable
                     Console.WriteLine(item.Key + "  " + item.Value);
                 }
             }
-
         }
     }
 }

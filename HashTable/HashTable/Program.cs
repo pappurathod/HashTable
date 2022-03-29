@@ -24,8 +24,9 @@ namespace HashTable
             Console.WriteLine("Welcome to hash table program");
             MyMapNode<string, int> frequencyDictionary = new MyMapNode<string, int>(10);
             CountWordFrequency("To be or not to be", frequencyDictionary);
-            Console.ReadLine();
+            MyMapNode<string, int> frequencyDictionaryParanoid = new MyMapNode<string, int>(10);
+            CountWordFrequency("Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations", frequencyDictionaryParanoid);
+           // Console.ReadLine();
         }
     }
-
 }
